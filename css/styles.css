@@ -431,7 +431,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:#f4f4fd;
+  color: #f4f4fd;
   padding: 40px 32px;
   background-color: #4d5ae5;
   height: 100%;
@@ -440,11 +440,9 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .portfolio-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-          0px 1px 1px rgba(46, 47, 66, 0.16),
-          0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item:hover .text-overlay {
@@ -452,9 +450,19 @@ img {
 }
 /*footer */
 
-.page-footer {
+.footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  min-width: 1440px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  align-items: baseline;
 }
 
 .footer-text {
@@ -464,6 +472,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
+
+  margin: 0;
+  padding: 0;
   max-width: 264px;
 }
 
@@ -508,12 +520,25 @@ img {
 
 .link-footer-icon:hover,
 .link-footer-icon:focus {
-  background-color: #31D0AA;
+  background-color: #31d0aa;
 }
 
 .icon-footer {
   fill: #f4f4fd;
 }
+
+.footer-text {
+  font-family: 'Raleway', sans-serif;
+  color: #f4f4fd;
+
+  max-width: 264px;
+}
+
+
+
+
+
+
 
 .visually-hidden {
   position: absolute;
