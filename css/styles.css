@@ -320,6 +320,11 @@ img {
   border-bottom-right-radius: 4px;
 }
 
+.li-team-icon {
+  width: 40px;
+  height: 40px;
+}
+
 /* Section Our Portfolio */
 
 .portfolio-section {
