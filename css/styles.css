@@ -145,23 +145,18 @@ img {
 
 /*section Services for business */
 
-
-
 .business-section {
   background-color: #2e2f42;
   text-align: center;
   padding: 188px 0;
   max-width: 1440px;
-  background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice1.jpg);
+  background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/peopleoffice1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0 auto;
 }
-
-
- 
-
 
 .section-heading {
   font-family: 'Roboto', sans-serif;
@@ -241,6 +236,21 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+
+.icon-values-section {
+  border: 1px solid rgba(142, 143, 153, 1);
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
 
 /*section Team */
 
